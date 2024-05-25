@@ -121,7 +121,7 @@ if selected == "About":
 
     with st.expander("Where to get the source code of this app?"):
         st.markdown(''' Source code is available at:
-    *  https://github.com/mzeeshanaltaf/genai-rag-openai-faiss
+    -  https://github.com/mzeeshanaltaf/genai-rag-groq-faiss
         ''')
     with st.expander("Whom to contact regarding this app?"):
         st.markdown(''' Contact [Zeeshan Altaf](zeeshan.altaf@gmail.com)
