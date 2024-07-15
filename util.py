@@ -17,7 +17,7 @@ def sidebar_api_key_configuration():
     if openai_api_key == '' and groq_api_key == '':
         st.sidebar.warning('Enter the API Key(s) 🗝️')
         st.session_state.prompt_activation = False
-    elif (openai_api_key.startswith('sk-') and (len(openai_api_key) == 51)) and (groq_api_key.startswith('gsk_') and
+    elif (openai_api_key.startswith('sk-') and (len(openai_api_key) == 56)) and (groq_api_key.startswith('gsk_') and
                                                                                  (len(groq_api_key) == 56)):
         st.sidebar.success('Lets Proceed!', icon='️👉')
         st.session_state.prompt_activation = True
